@@ -1,0 +1,12 @@
+{
+    "full_name": "Yu Wang",
+    "email": "anselmwang@gmail.com",
+	"author_url" : "https://github.com/anselmwang",
+	"project_name_snake": "test_template",
+	"project_name_kebab": "{{cookiecutter.project_name_snake.replace('_', '-')}}",
+	"project_name": "{{cookiecutter.project_name_snake.split('_')|map('capitalize')|join(' ') }}",
+	"project_name_pascal": "{{cookiecutter.project_name.split(' ')|join('')}}",
+    "project_short_description": "Refreshingly simple static site generator.",
+    "version": "0.1.0",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}

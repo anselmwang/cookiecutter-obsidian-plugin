@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-{{cookiecutter.project_name_kebab}}",
+	"name": "{{cookiecutter.project_name}}",
+	"version": "1.0.1",
+	"minAppVersion": "0.12.0",
+	"description": "{{cookiecutter.project_short_description}}",
+	"author": "{{cookiecutter.full_name}}",
+	"authorUrl": "{{cookiecutter.author_url}}",
+	"isDesktopOnly": false
+}
